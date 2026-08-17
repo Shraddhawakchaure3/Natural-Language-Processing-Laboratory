@@ -1,11 +1,16 @@
 import re
+from pathlib import Path
 import pandas as pd
 
 # --------------------------------------------------
 # Read Dataset
 # --------------------------------------------------
 
-df = pd.read_csv("data/resumes.csv")
+base_dir = Path(__file__).resolve().parent
+csv_path = base_dir / 'resumes.csv'
+out_path = base_dir / 'extracted_resume_data.csv'
+
+df = pd.read_csv(csv_path)
 
 print("Original Dataset\n")
 print(df)
@@ -145,6 +150,6 @@ print(df[["Name",
 # Save CSV
 # --------------------------------------------------
 
-df.to_csv("extracted_resume_data.csv", index=False)
+df.to_csv(out_path, index=False)
 
 print("\nData Saved Successfully!")

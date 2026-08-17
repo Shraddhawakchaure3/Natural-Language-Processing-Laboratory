@@ -65,7 +65,7 @@ def main():
     print("ASSIGNMENT 3: BAG-OF-WORDS & TF-IDF VECTORIZATION")
     print("=" * 60)
 
-    data_path = os.path.join(os.path.dirname(__file__), "data", "academic_submissions.json")
+    data_path = os.path.join(os.path.dirname(__file__),"academic_submissions.json")
     if not os.path.exists(data_path):
         print(f"Data file not found at {data_path}")
         return
