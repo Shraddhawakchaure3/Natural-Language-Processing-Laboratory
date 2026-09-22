@@ -5,6 +5,8 @@ Assignment 3: Bag-of-Words & TF-IDF Vectorization
 - Document-similarity & Plagiarism Detection system based on Cosine Similarity
 """
 
+
+
 import os
 import json
 import numpy as np
