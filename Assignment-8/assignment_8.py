@@ -1,5 +1,5 @@
 """
-Assignment 8: Transformer-based Sentiment Analysis using Hugging Face 
+Assignment 8: Transformer-based Sentiment Analysis using Hugging 
 Name: Shraddha Vilas Wakchaure
 Class: BTech IT(B) - 138
 PRN: UIT23F1138
